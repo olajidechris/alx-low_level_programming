@@ -6,7 +6,6 @@
  * main - Entry point
  * Description: 'function to generate a random number
  * and find if the last digit is zero, >5 or <6 && !0'
- * @parameters: y, n
  * Return: Always 0 (Success)
  **/
 int main(void)
