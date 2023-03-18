@@ -18,7 +18,7 @@ int main(void)
 		{
 			n++;
 		}
-		else if(n != 101 && n!= 113)
+		else if(n == 113)
 		{
 			n++;
 		}
