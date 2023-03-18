@@ -14,12 +14,20 @@ int main(void)
 
 	while (n < 123)
 	{
- 		if(n != 101 && n!= 113)
+		if(n == 101)
+		{
+			n++;
+		}
+		else if(n != 101 && n!= 113)
+		{
+			n++;
+		}
+		else
 		{
 			putchar ((char)n);
 			n++;
 		}
- 	}
+	}
 
 	putchar ('\n');
 	return (0);
