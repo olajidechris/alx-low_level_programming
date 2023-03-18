@@ -17,6 +17,6 @@ int main(void)
       putchar(lower_case_alphabet[n]);
       n++;
     }
-   /*        putchar('\n');*/
+  putchar('\n');
   return (0);
 }
