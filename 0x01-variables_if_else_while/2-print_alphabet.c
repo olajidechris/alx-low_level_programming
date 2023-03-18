@@ -1,6 +1,4 @@
 #include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <stdio.h>
 
 /**
@@ -17,8 +15,10 @@ int main(void)
 
 	while (n < sizeof(lower_case_alphabet))
 	{
-	  putchar(lower_case_alphabet[n]);
-	  n++;
+		putchar(lower_case_alphabet[n]);
+		n++;
 	}
+	putchar ('\n');
+
 	return (0);
 }
