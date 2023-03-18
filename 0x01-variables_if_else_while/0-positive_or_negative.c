@@ -6,7 +6,6 @@
 /**
  * main - Entry point
  * Description: 'function to determine if a random number is positive, negative, or zero'
- * @parameter: n
  * Return: Always 0 (Success)
  **/
 
