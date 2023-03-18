@@ -11,8 +11,8 @@
 int main(void)
 {
 	int n = 0;
-
 	char lower_case_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+
 	while (n < 26)
 	{
 		putchar (lower_case_alphabet[n]);
