@@ -10,9 +10,9 @@
 
 int main(void)
 {
-  unsigned int n = 0;
+  int n = 0;
   char lower_case_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-  while (n < sizeof(lower_case_alphabet))
+  while (n < 26))
     {
       putchar(lower_case_alphabet[n]);
       n++;
