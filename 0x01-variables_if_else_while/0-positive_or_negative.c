@@ -3,12 +3,17 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
-/* function to determine if a random number is positive, negative, or zero */
+/**
+ * main - Entry point
+ * Description: 'function to determine if a random number is positive, negative, or zero'
+ * @parameter: n
+ * Return: Always 0 (Success)
+ **/
+
 int main(void)
 {
 	int n;
-
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
