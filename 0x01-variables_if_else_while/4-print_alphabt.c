@@ -14,11 +14,11 @@ int main(void)
 
 	while (n < 123)
 	{
-		if(n == 101)
+		if (n == 101)
 		{
 			n++;
 		}
-		else if(n == 113)
+		else if (n == 113)
 		{
 			n++;
 		}
