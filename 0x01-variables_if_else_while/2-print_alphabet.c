@@ -10,15 +10,16 @@
 
 int main(void)
 {
-	unsigned int n = 0;
-	char lower_case_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+        unsigned int n = 0;
+        char lower_case_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 
-	while (n < sizeof(lower_case_alphabet))
-	{
-		putchar(lower_case_alphabet[n]);
-		n++;
-	}
-	putchar ('\n');
+        while (n < sizeof(lower_case_alphabet))
+        {
+        	putchar(lower_case_alphabet[n]);
+        	n++;
+        }
+        putchar('\n');
+        return (0);
 
 	return (0);
 }
