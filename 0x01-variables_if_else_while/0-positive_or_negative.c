@@ -5,7 +5,8 @@
 
 /**
  * main - Entry point
- * Description: 'function to determine if a random number is positive, negative, or zero'
+ * Description: 'function to determine if a random 
+ * number is positive, negative, or zero'
  * Return: Always 0 (Success)
  **/
 
